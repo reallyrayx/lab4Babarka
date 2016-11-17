@@ -19,7 +19,10 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            string name = (textBox12.Text);
+         
+      
+            textBox123.Text = name.ToUpper();
         }
     }
 }

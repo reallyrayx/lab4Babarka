@@ -34,6 +34,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox123 = new System.Windows.Forms.TextBox();
+            this.label123 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
@@ -60,6 +61,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label123);
             this.tabPage2.Controls.Add(this.textBox123);
             this.tabPage2.Controls.Add(this.textBox12);
             this.tabPage2.Controls.Add(this.button1);
@@ -77,7 +79,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "КАПС";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -94,6 +96,15 @@
             this.textBox123.Name = "textBox123";
             this.textBox123.Size = new System.Drawing.Size(100, 20);
             this.textBox123.TabIndex = 2;
+            // 
+            // label123
+            // 
+            this.label123.AutoSize = true;
+            this.label123.Location = new System.Drawing.Point(321, 30);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(169, 13);
+            this.label123.TabIndex = 3;
+            this.label123.Text = "Результат с большими буквами";
             // 
             // Form1
             // 
@@ -118,6 +129,7 @@
         private System.Windows.Forms.TextBox textBox123;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label123;
     }
 }
 
