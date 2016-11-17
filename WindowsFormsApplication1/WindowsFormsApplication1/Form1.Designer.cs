@@ -95,6 +95,7 @@
             this.button1111.TabIndex = 2;
             this.button1111.Text = "Убрать КАПС";
             this.button1111.UseVisualStyleBackColor = true;
+            this.button1111.Click += new System.EventHandler(this.button1111_Click);
             // 
             // label1122
             // 
