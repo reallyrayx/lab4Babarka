@@ -32,7 +32,12 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button1355 = new System.Windows.Forms.Button();
+            this.checkBox124 = new System.Windows.Forms.CheckBox();
+            this.label134 = new System.Windows.Forms.Label();
+            this.radioButton1453 = new System.Windows.Forms.RadioButton();
             this.tabControl1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -68,6 +73,10 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.radioButton1453);
+            this.tabPage3.Controls.Add(this.label134);
+            this.tabPage3.Controls.Add(this.checkBox124);
+            this.tabPage3.Controls.Add(this.button1355);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -75,6 +84,45 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button1355
+            // 
+            this.button1355.Location = new System.Drawing.Point(332, 67);
+            this.button1355.Name = "button1355";
+            this.button1355.Size = new System.Drawing.Size(75, 23);
+            this.button1355.TabIndex = 0;
+            this.button1355.Text = "button1";
+            this.button1355.UseVisualStyleBackColor = true;
+            // 
+            // checkBox124
+            // 
+            this.checkBox124.AutoSize = true;
+            this.checkBox124.Location = new System.Drawing.Point(305, 131);
+            this.checkBox124.Name = "checkBox124";
+            this.checkBox124.Size = new System.Drawing.Size(80, 17);
+            this.checkBox124.TabIndex = 1;
+            this.checkBox124.Text = "checkBox1";
+            this.checkBox124.UseVisualStyleBackColor = true;
+            // 
+            // label134
+            // 
+            this.label134.AutoSize = true;
+            this.label134.Location = new System.Drawing.Point(128, 67);
+            this.label134.Name = "label134";
+            this.label134.Size = new System.Drawing.Size(35, 13);
+            this.label134.TabIndex = 2;
+            this.label134.Text = "label1";
+            // 
+            // radioButton1453
+            // 
+            this.radioButton1453.AutoSize = true;
+            this.radioButton1453.Location = new System.Drawing.Point(549, 100);
+            this.radioButton1453.Name = "radioButton1453";
+            this.radioButton1453.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1453.TabIndex = 3;
+            this.radioButton1453.TabStop = true;
+            this.radioButton1453.Text = "radioButton1";
+            this.radioButton1453.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -85,6 +133,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -95,6 +145,10 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.RadioButton radioButton1453;
+        private System.Windows.Forms.Label label134;
+        private System.Windows.Forms.CheckBox checkBox124;
+        private System.Windows.Forms.Button button1355;
     }
 }
 
